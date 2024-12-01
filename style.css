@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gaps {
+  gap: 15em;
+  font-size: 13px;
+  color: white;
+}
+
+i {
+  margin: 3px;
+  color: #FFD700;
+}
+
+.css-style-span {
+  letter-spacing: 0.1em;
+}
+
+header {
+  height: auto;
+  padding: 2%;
+}
+
+.detail {
+  font-size: 11.3px;
+}
+
+.img-container {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0px 3px;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+select {
+  outline: none;
+  border-radius: 5px;
+}
+
+.select-div {
+  gap: 3%;
+  width: 50%;
+}
+
+.search {
+  outline: none;
+  padding: 1px 5px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  justify-content: center;
+  gap: 4%;
+}
+
+.section-1 {
+  overflow-x: hidden;
+}
+
+.section-2 {
+  padding: 3%;
+  color: rgba(255, 255, 255, 0.2);
+}
+.section-2 .container-1 {
+  width: 80%;
+}
+.section-2 .container-1 .my-gap {
+  gap: 4%;
+}
+.section-2 .container-1 .heading {
+  text-align: center;
+  color: black;
+  font-size: 2.8em;
+  padding-bottom: 3%;
+  font-weight: 600;
+}
+.section-2 .container-1 .card-row {
+  gap: 5%;
+}
+.section-2 .container-1 img {
+  background-color: wheat;
+}
+.section-2 .container-1 .border {
+  border-radius: 8px;
+}
+.section-2 .container-1 .p-tg {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.section-2 .container-1 .my-btn {
+  padding: 4px 39px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-color: rgba(0, 0, 0, 0.8);
+  border-radius: 19px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  .section-2 .container-1 .my-gap .bottom {
+    margin: 5% 0;
+  }
+  .search .my-media {
+    display: none;
+  }
+  .my-styles img {
+    width: 1100px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .my-nav-style {
+    margin: 3% 0;
+  }
+  .search .my-media {
+    display: none;
+  }
+  .tab-style {
+    display: none;
+  }
+  select {
+    padding: 4px 7px;
+  }
+  .gaps {
+    gap: 6em;
+  }
+  .my-styles img {
+    width: 800px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  footer ul li {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 2560px) and (max-width: 4000px) {
+  .my-styles img {
+    width: 3000px;
+  }
+  .gaps {
+    font-size: 30px;
+    color: white;
+  }
+}
+@media only screen and (min-width: 1920px) and (max-width: 2559px) {
+  .my-styles img {
+    width: 3000px;
+  }
+}/*# sourceMappingURL=style.css.map */
